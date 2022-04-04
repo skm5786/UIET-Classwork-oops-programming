@@ -8,10 +8,70 @@
 
 /* Begin PBXBuildFile section */
 		95EDA03527FAA3E40010F6AC /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 95EDA03427FAA3E40010F6AC /* main.c */; };
+		95EDA04227FAA5C20010F6AC /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 95EDA04127FAA5C20010F6AC /* main.c */; };
+		95EDA04D27FAAF140010F6AC /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 95EDA04C27FAAF140010F6AC /* main.c */; };
+		95EDA05827FAAFF30010F6AC /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 95EDA05727FAAFF30010F6AC /* main.c */; };
+		95EDA06327FAB1790010F6AC /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 95EDA06227FAB1790010F6AC /* main.c */; };
+		95EDA06E27FABE4E0010F6AC /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 95EDA06D27FABE4E0010F6AC /* main.c */; };
+		95EDA07927FAC1280010F6AC /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 95EDA07827FAC1280010F6AC /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		95EDA02F27FAA3E40010F6AC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		95EDA03D27FAA5C20010F6AC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		95EDA04827FAAF140010F6AC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		95EDA05327FAAFF30010F6AC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		95EDA05E27FAB1790010F6AC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		95EDA06927FABE4E0010F6AC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		95EDA07427FAC1280010F6AC /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,10 +85,64 @@
 /* Begin PBXFileReference section */
 		95EDA03127FAA3E40010F6AC /* UIET Classwork oops programming */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "UIET Classwork oops programming"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95EDA03427FAA3E40010F6AC /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		95EDA03F27FAA5C20010F6AC /* prime number */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "prime number"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95EDA04127FAA5C20010F6AC /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		95EDA04A27FAAF140010F6AC /* even odd */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "even odd"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95EDA04C27FAAF140010F6AC /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		95EDA05527FAAFF30010F6AC /* greatest of 3 numbers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "greatest of 3 numbers"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95EDA05727FAAFF30010F6AC /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		95EDA06027FAB1790010F6AC /* armstrong number */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "armstrong number"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95EDA06227FAB1790010F6AC /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		95EDA06B27FABE4E0010F6AC /* even odd number series */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "even odd number series"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95EDA06D27FABE4E0010F6AC /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		95EDA07627FAC1280010F6AC /* prime number printing */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "prime number printing"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95EDA07827FAC1280010F6AC /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		95EDA02E27FAA3E40010F6AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95EDA03C27FAA5C20010F6AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95EDA04727FAAF140010F6AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95EDA05227FAAFF30010F6AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95EDA05D27FAB1790010F6AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95EDA06827FABE4E0010F6AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95EDA07327FAC1280010F6AC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +156,12 @@
 			isa = PBXGroup;
 			children = (
 				95EDA03327FAA3E40010F6AC /* UIET Classwork oops programming */,
+				95EDA04027FAA5C20010F6AC /* prime number */,
+				95EDA04B27FAAF140010F6AC /* even odd */,
+				95EDA05627FAAFF30010F6AC /* greatest of 3 numbers */,
+				95EDA06127FAB1790010F6AC /* armstrong number */,
+				95EDA06C27FABE4E0010F6AC /* even odd number series */,
+				95EDA07727FAC1280010F6AC /* prime number printing */,
 				95EDA03227FAA3E40010F6AC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +170,12 @@
 			isa = PBXGroup;
 			children = (
 				95EDA03127FAA3E40010F6AC /* UIET Classwork oops programming */,
+				95EDA03F27FAA5C20010F6AC /* prime number */,
+				95EDA04A27FAAF140010F6AC /* even odd */,
+				95EDA05527FAAFF30010F6AC /* greatest of 3 numbers */,
+				95EDA06027FAB1790010F6AC /* armstrong number */,
+				95EDA06B27FABE4E0010F6AC /* even odd number series */,
+				95EDA07627FAC1280010F6AC /* prime number printing */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +186,54 @@
 				95EDA03427FAA3E40010F6AC /* main.c */,
 			);
 			path = "UIET Classwork oops programming";
+			sourceTree = "<group>";
+		};
+		95EDA04027FAA5C20010F6AC /* prime number */ = {
+			isa = PBXGroup;
+			children = (
+				95EDA04127FAA5C20010F6AC /* main.c */,
+			);
+			path = "prime number";
+			sourceTree = "<group>";
+		};
+		95EDA04B27FAAF140010F6AC /* even odd */ = {
+			isa = PBXGroup;
+			children = (
+				95EDA04C27FAAF140010F6AC /* main.c */,
+			);
+			path = "even odd";
+			sourceTree = "<group>";
+		};
+		95EDA05627FAAFF30010F6AC /* greatest of 3 numbers */ = {
+			isa = PBXGroup;
+			children = (
+				95EDA05727FAAFF30010F6AC /* main.c */,
+			);
+			path = "greatest of 3 numbers";
+			sourceTree = "<group>";
+		};
+		95EDA06127FAB1790010F6AC /* armstrong number */ = {
+			isa = PBXGroup;
+			children = (
+				95EDA06227FAB1790010F6AC /* main.c */,
+			);
+			path = "armstrong number";
+			sourceTree = "<group>";
+		};
+		95EDA06C27FABE4E0010F6AC /* even odd number series */ = {
+			isa = PBXGroup;
+			children = (
+				95EDA06D27FABE4E0010F6AC /* main.c */,
+			);
+			path = "even odd number series";
+			sourceTree = "<group>";
+		};
+		95EDA07727FAC1280010F6AC /* prime number printing */ = {
+			isa = PBXGroup;
+			children = (
+				95EDA07827FAC1280010F6AC /* main.c */,
+			);
+			path = "prime number printing";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +256,108 @@
 			productReference = 95EDA03127FAA3E40010F6AC /* UIET Classwork oops programming */;
 			productType = "com.apple.product-type.tool";
 		};
+		95EDA03E27FAA5C20010F6AC /* prime number */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95EDA04327FAA5C20010F6AC /* Build configuration list for PBXNativeTarget "prime number" */;
+			buildPhases = (
+				95EDA03B27FAA5C20010F6AC /* Sources */,
+				95EDA03C27FAA5C20010F6AC /* Frameworks */,
+				95EDA03D27FAA5C20010F6AC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "prime number";
+			productName = "prime number";
+			productReference = 95EDA03F27FAA5C20010F6AC /* prime number */;
+			productType = "com.apple.product-type.tool";
+		};
+		95EDA04927FAAF140010F6AC /* even odd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95EDA05027FAAF140010F6AC /* Build configuration list for PBXNativeTarget "even odd" */;
+			buildPhases = (
+				95EDA04627FAAF140010F6AC /* Sources */,
+				95EDA04727FAAF140010F6AC /* Frameworks */,
+				95EDA04827FAAF140010F6AC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "even odd";
+			productName = "even odd";
+			productReference = 95EDA04A27FAAF140010F6AC /* even odd */;
+			productType = "com.apple.product-type.tool";
+		};
+		95EDA05427FAAFF30010F6AC /* greatest of 3 numbers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95EDA05927FAAFF30010F6AC /* Build configuration list for PBXNativeTarget "greatest of 3 numbers" */;
+			buildPhases = (
+				95EDA05127FAAFF30010F6AC /* Sources */,
+				95EDA05227FAAFF30010F6AC /* Frameworks */,
+				95EDA05327FAAFF30010F6AC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "greatest of 3 numbers";
+			productName = "greatest of 3 numbers";
+			productReference = 95EDA05527FAAFF30010F6AC /* greatest of 3 numbers */;
+			productType = "com.apple.product-type.tool";
+		};
+		95EDA05F27FAB1790010F6AC /* armstrong number */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95EDA06427FAB1790010F6AC /* Build configuration list for PBXNativeTarget "armstrong number" */;
+			buildPhases = (
+				95EDA05C27FAB1790010F6AC /* Sources */,
+				95EDA05D27FAB1790010F6AC /* Frameworks */,
+				95EDA05E27FAB1790010F6AC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "armstrong number";
+			productName = "armstrong number";
+			productReference = 95EDA06027FAB1790010F6AC /* armstrong number */;
+			productType = "com.apple.product-type.tool";
+		};
+		95EDA06A27FABE4E0010F6AC /* even odd number series */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95EDA06F27FABE4E0010F6AC /* Build configuration list for PBXNativeTarget "even odd number series" */;
+			buildPhases = (
+				95EDA06727FABE4E0010F6AC /* Sources */,
+				95EDA06827FABE4E0010F6AC /* Frameworks */,
+				95EDA06927FABE4E0010F6AC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "even odd number series";
+			productName = "even odd number series";
+			productReference = 95EDA06B27FABE4E0010F6AC /* even odd number series */;
+			productType = "com.apple.product-type.tool";
+		};
+		95EDA07527FAC1280010F6AC /* prime number printing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95EDA07A27FAC1280010F6AC /* Build configuration list for PBXNativeTarget "prime number printing" */;
+			buildPhases = (
+				95EDA07227FAC1280010F6AC /* Sources */,
+				95EDA07327FAC1280010F6AC /* Frameworks */,
+				95EDA07427FAC1280010F6AC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "prime number printing";
+			productName = "prime number printing";
+			productReference = 95EDA07627FAC1280010F6AC /* prime number printing */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -92,6 +368,24 @@
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
 					95EDA03027FAA3E40010F6AC = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					95EDA03E27FAA5C20010F6AC = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					95EDA04927FAAF140010F6AC = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					95EDA05427FAAFF30010F6AC = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					95EDA05F27FAB1790010F6AC = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					95EDA06A27FABE4E0010F6AC = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					95EDA07527FAC1280010F6AC = {
 						CreatedOnToolsVersion = 13.3;
 					};
 				};
@@ -110,6 +404,12 @@
 			projectRoot = "";
 			targets = (
 				95EDA03027FAA3E40010F6AC /* UIET Classwork oops programming */,
+				95EDA03E27FAA5C20010F6AC /* prime number */,
+				95EDA04927FAAF140010F6AC /* even odd */,
+				95EDA05427FAAFF30010F6AC /* greatest of 3 numbers */,
+				95EDA05F27FAB1790010F6AC /* armstrong number */,
+				95EDA06A27FABE4E0010F6AC /* even odd number series */,
+				95EDA07527FAC1280010F6AC /* prime number printing */,
 			);
 		};
 /* End PBXProject section */
@@ -120,6 +420,54 @@
 			buildActionMask = 2147483647;
 			files = (
 				95EDA03527FAA3E40010F6AC /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95EDA03B27FAA5C20010F6AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95EDA04227FAA5C20010F6AC /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95EDA04627FAAF140010F6AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95EDA04D27FAAF140010F6AC /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95EDA05127FAAFF30010F6AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95EDA05827FAAFF30010F6AC /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95EDA05C27FAB1790010F6AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95EDA06327FAB1790010F6AC /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95EDA06727FABE4E0010F6AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95EDA06E27FABE4E0010F6AC /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95EDA07227FAC1280010F6AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95EDA07927FAC1280010F6AC /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +599,102 @@
 			};
 			name = Release;
 		};
+		95EDA04427FAA5C20010F6AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		95EDA04527FAA5C20010F6AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		95EDA04E27FAAF140010F6AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		95EDA04F27FAAF140010F6AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		95EDA05A27FAAFF30010F6AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		95EDA05B27FAAFF30010F6AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		95EDA06527FAB1790010F6AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		95EDA06627FAB1790010F6AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		95EDA07027FABE4E0010F6AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		95EDA07127FABE4E0010F6AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		95EDA07B27FAC1280010F6AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		95EDA07C27FAC1280010F6AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -268,6 +712,60 @@
 			buildConfigurations = (
 				95EDA03927FAA3E40010F6AC /* Debug */,
 				95EDA03A27FAA3E40010F6AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95EDA04327FAA5C20010F6AC /* Build configuration list for PBXNativeTarget "prime number" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95EDA04427FAA5C20010F6AC /* Debug */,
+				95EDA04527FAA5C20010F6AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95EDA05027FAAF140010F6AC /* Build configuration list for PBXNativeTarget "even odd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95EDA04E27FAAF140010F6AC /* Debug */,
+				95EDA04F27FAAF140010F6AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95EDA05927FAAFF30010F6AC /* Build configuration list for PBXNativeTarget "greatest of 3 numbers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95EDA05A27FAAFF30010F6AC /* Debug */,
+				95EDA05B27FAAFF30010F6AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95EDA06427FAB1790010F6AC /* Build configuration list for PBXNativeTarget "armstrong number" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95EDA06527FAB1790010F6AC /* Debug */,
+				95EDA06627FAB1790010F6AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95EDA06F27FABE4E0010F6AC /* Build configuration list for PBXNativeTarget "even odd number series" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95EDA07027FABE4E0010F6AC /* Debug */,
+				95EDA07127FABE4E0010F6AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95EDA07A27FAC1280010F6AC /* Build configuration list for PBXNativeTarget "prime number printing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95EDA07B27FAC1280010F6AC /* Debug */,
+				95EDA07C27FAC1280010F6AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
