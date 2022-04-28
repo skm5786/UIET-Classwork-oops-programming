@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		959884C9281AA301007F646B /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 959884C8281AA301007F646B /* main.c */; };
 		95EDA03527FAA3E40010F6AC /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 95EDA03427FAA3E40010F6AC /* main.c */; };
 		95EDA04227FAA5C20010F6AC /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 95EDA04127FAA5C20010F6AC /* main.c */; };
 		95EDA04D27FAAF140010F6AC /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 95EDA04C27FAAF140010F6AC /* main.c */; };
@@ -18,6 +19,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		959884C4281AA301007F646B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		95EDA02F27FAA3E40010F6AC /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -93,6 +103,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		959884C6281AA301007F646B /* testy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = testy; sourceTree = BUILT_PRODUCTS_DIR; };
+		959884C8281AA301007F646B /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		95EDA03127FAA3E40010F6AC /* UIET Classwork oops programming */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "UIET Classwork oops programming"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95EDA03427FAA3E40010F6AC /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		95EDA03F27FAA5C20010F6AC /* prime number */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "prime number"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,6 +124,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		959884C3281AA301007F646B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		95EDA02E27FAA3E40010F6AC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -171,6 +190,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		959884C7281AA301007F646B /* testy */ = {
+			isa = PBXGroup;
+			children = (
+				959884C8281AA301007F646B /* main.c */,
+			);
+			path = testy;
+			sourceTree = "<group>";
+		};
 		95EDA02827FAA3E40010F6AC = {
 			isa = PBXGroup;
 			children = (
@@ -182,6 +209,7 @@
 				95EDA06C27FABE4E0010F6AC /* even odd number series */,
 				95EDA07727FAC1280010F6AC /* prime number printing */,
 				95EDA08227FACC5C0010F6AC /* array entering elements */,
+				959884C7281AA301007F646B /* testy */,
 				95EDA03227FAA3E40010F6AC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -197,6 +225,7 @@
 				95EDA06B27FABE4E0010F6AC /* even odd number series */,
 				95EDA07627FAC1280010F6AC /* prime number printing */,
 				95EDA08127FACC5C0010F6AC /* array entering elements */,
+				959884C6281AA301007F646B /* testy */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -268,6 +297,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		959884C5281AA301007F646B /* testy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 959884CC281AA301007F646B /* Build configuration list for PBXNativeTarget "testy" */;
+			buildPhases = (
+				959884C2281AA301007F646B /* Sources */,
+				959884C3281AA301007F646B /* Frameworks */,
+				959884C4281AA301007F646B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testy;
+			productName = testy;
+			productReference = 959884C6281AA301007F646B /* testy */;
+			productType = "com.apple.product-type.tool";
+		};
 		95EDA03027FAA3E40010F6AC /* UIET Classwork oops programming */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 95EDA03827FAA3E40010F6AC /* Build configuration list for PBXNativeTarget "UIET Classwork oops programming" */;
@@ -413,6 +459,9 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
+					959884C5281AA301007F646B = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
 					95EDA03027FAA3E40010F6AC = {
 						CreatedOnToolsVersion = 13.3;
 					};
@@ -460,11 +509,20 @@
 				95EDA06A27FABE4E0010F6AC /* even odd number series */,
 				95EDA07527FAC1280010F6AC /* prime number printing */,
 				95EDA08027FACC5C0010F6AC /* array entering elements */,
+				959884C5281AA301007F646B /* testy */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		959884C2281AA301007F646B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				959884C9281AA301007F646B /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		95EDA02D27FAA3E40010F6AC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -532,6 +590,24 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		959884CA281AA301007F646B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		959884CB281AA301007F646B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		95EDA03627FAA3E40010F6AC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -772,6 +848,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		959884CC281AA301007F646B /* Build configuration list for PBXNativeTarget "testy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				959884CA281AA301007F646B /* Debug */,
+				959884CB281AA301007F646B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		95EDA02C27FAA3E40010F6AC /* Build configuration list for PBXProject "UIET Classwork oops programming" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
