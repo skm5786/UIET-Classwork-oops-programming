@@ -14,6 +14,7 @@
 		95EDA06327FAB1790010F6AC /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 95EDA06227FAB1790010F6AC /* main.c */; };
 		95EDA06E27FABE4E0010F6AC /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 95EDA06D27FABE4E0010F6AC /* main.c */; };
 		95EDA07927FAC1280010F6AC /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 95EDA07827FAC1280010F6AC /* main.c */; };
+		95EDA08427FACC5C0010F6AC /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 95EDA08327FACC5C0010F6AC /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -80,6 +81,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		95EDA07F27FACC5C0010F6AC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -97,6 +107,8 @@
 		95EDA06D27FABE4E0010F6AC /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		95EDA07627FAC1280010F6AC /* prime number printing */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "prime number printing"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95EDA07827FAC1280010F6AC /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		95EDA08127FACC5C0010F6AC /* array entering elements */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "array entering elements"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95EDA08327FACC5C0010F6AC /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +161,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		95EDA07E27FACC5C0010F6AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -162,6 +181,7 @@
 				95EDA06127FAB1790010F6AC /* armstrong number */,
 				95EDA06C27FABE4E0010F6AC /* even odd number series */,
 				95EDA07727FAC1280010F6AC /* prime number printing */,
+				95EDA08227FACC5C0010F6AC /* array entering elements */,
 				95EDA03227FAA3E40010F6AC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -176,6 +196,7 @@
 				95EDA06027FAB1790010F6AC /* armstrong number */,
 				95EDA06B27FABE4E0010F6AC /* even odd number series */,
 				95EDA07627FAC1280010F6AC /* prime number printing */,
+				95EDA08127FACC5C0010F6AC /* array entering elements */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -234,6 +255,14 @@
 				95EDA07827FAC1280010F6AC /* main.c */,
 			);
 			path = "prime number printing";
+			sourceTree = "<group>";
+		};
+		95EDA08227FACC5C0010F6AC /* array entering elements */ = {
+			isa = PBXGroup;
+			children = (
+				95EDA08327FACC5C0010F6AC /* main.c */,
+			);
+			path = "array entering elements";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -358,6 +387,23 @@
 			productReference = 95EDA07627FAC1280010F6AC /* prime number printing */;
 			productType = "com.apple.product-type.tool";
 		};
+		95EDA08027FACC5C0010F6AC /* array entering elements */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95EDA08527FACC5C0010F6AC /* Build configuration list for PBXNativeTarget "array entering elements" */;
+			buildPhases = (
+				95EDA07D27FACC5C0010F6AC /* Sources */,
+				95EDA07E27FACC5C0010F6AC /* Frameworks */,
+				95EDA07F27FACC5C0010F6AC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "array entering elements";
+			productName = "array entering elements";
+			productReference = 95EDA08127FACC5C0010F6AC /* array entering elements */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -388,6 +434,9 @@
 					95EDA07527FAC1280010F6AC = {
 						CreatedOnToolsVersion = 13.3;
 					};
+					95EDA08027FACC5C0010F6AC = {
+						CreatedOnToolsVersion = 13.3;
+					};
 				};
 			};
 			buildConfigurationList = 95EDA02C27FAA3E40010F6AC /* Build configuration list for PBXProject "UIET Classwork oops programming" */;
@@ -410,6 +459,7 @@
 				95EDA05F27FAB1790010F6AC /* armstrong number */,
 				95EDA06A27FABE4E0010F6AC /* even odd number series */,
 				95EDA07527FAC1280010F6AC /* prime number printing */,
+				95EDA08027FACC5C0010F6AC /* array entering elements */,
 			);
 		};
 /* End PBXProject section */
@@ -468,6 +518,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				95EDA07927FAC1280010F6AC /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95EDA07D27FACC5C0010F6AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95EDA08427FACC5C0010F6AC /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -695,6 +753,22 @@
 			};
 			name = Release;
 		};
+		95EDA08627FACC5C0010F6AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		95EDA08727FACC5C0010F6AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -766,6 +840,15 @@
 			buildConfigurations = (
 				95EDA07B27FAC1280010F6AC /* Debug */,
 				95EDA07C27FAC1280010F6AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95EDA08527FACC5C0010F6AC /* Build configuration list for PBXNativeTarget "array entering elements" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95EDA08627FACC5C0010F6AC /* Debug */,
+				95EDA08727FACC5C0010F6AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
