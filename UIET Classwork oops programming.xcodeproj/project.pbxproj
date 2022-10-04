@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		951DEFEB2844819300943570 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 951DEFEA2844819300943570 /* main.cpp */; };
 		959884C9281AA301007F646B /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 959884C8281AA301007F646B /* main.c */; };
 		95EDA03527FAA3E40010F6AC /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 95EDA03427FAA3E40010F6AC /* main.c */; };
 		95EDA04227FAA5C20010F6AC /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 95EDA04127FAA5C20010F6AC /* main.c */; };
@@ -19,7 +20,43 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		951DEFE62844819300943570 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		959884C4281AA301007F646B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		95C4447F283B53EC0052B510 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		95C4448A283B5E1F0052B510 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		95C44495283B5FEA0052B510 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -103,8 +140,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		951DEFE82844819300943570 /* operator overloading */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "operator overloading"; sourceTree = BUILT_PRODUCTS_DIR; };
+		951DEFEA2844819300943570 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		959884C6281AA301007F646B /* testy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = testy; sourceTree = BUILT_PRODUCTS_DIR; };
 		959884C8281AA301007F646B /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		95C44481283B53EC0052B510 /* classes and objects */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "classes and objects"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95C4448C283B5E1F0052B510 /* diffrence between complex numbers using classes and objects */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "diffrence between complex numbers using classes and objects"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95C44497283B5FEA0052B510 /* constructs overloading */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "constructs overloading"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95EDA03127FAA3E40010F6AC /* UIET Classwork oops programming */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "UIET Classwork oops programming"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95EDA03427FAA3E40010F6AC /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		95EDA03F27FAA5C20010F6AC /* prime number */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "prime number"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -124,7 +166,35 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		951DEFE52844819300943570 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		959884C3281AA301007F646B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95C4447E283B53EC0052B510 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95C44489283B5E1F0052B510 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95C44494283B5FEA0052B510 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -190,6 +260,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		951DEFE92844819300943570 /* operator overloading */ = {
+			isa = PBXGroup;
+			children = (
+				951DEFEA2844819300943570 /* main.cpp */,
+			);
+			path = "operator overloading";
+			sourceTree = "<group>";
+		};
 		959884C7281AA301007F646B /* testy */ = {
 			isa = PBXGroup;
 			children = (
@@ -210,6 +288,7 @@
 				95EDA07727FAC1280010F6AC /* prime number printing */,
 				95EDA08227FACC5C0010F6AC /* array entering elements */,
 				959884C7281AA301007F646B /* testy */,
+				951DEFE92844819300943570 /* operator overloading */,
 				95EDA03227FAA3E40010F6AC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -226,6 +305,10 @@
 				95EDA07627FAC1280010F6AC /* prime number printing */,
 				95EDA08127FACC5C0010F6AC /* array entering elements */,
 				959884C6281AA301007F646B /* testy */,
+				95C44481283B53EC0052B510 /* classes and objects */,
+				95C4448C283B5E1F0052B510 /* diffrence between complex numbers using classes and objects */,
+				95C44497283B5FEA0052B510 /* constructs overloading */,
+				951DEFE82844819300943570 /* operator overloading */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -297,6 +380,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		951DEFE72844819300943570 /* operator overloading */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 951DEFEC2844819300943570 /* Build configuration list for PBXNativeTarget "operator overloading" */;
+			buildPhases = (
+				951DEFE42844819300943570 /* Sources */,
+				951DEFE52844819300943570 /* Frameworks */,
+				951DEFE62844819300943570 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "operator overloading";
+			productName = "operator overloading";
+			productReference = 951DEFE82844819300943570 /* operator overloading */;
+			productType = "com.apple.product-type.tool";
+		};
 		959884C5281AA301007F646B /* testy */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 959884CC281AA301007F646B /* Build configuration list for PBXNativeTarget "testy" */;
@@ -312,6 +412,57 @@
 			name = testy;
 			productName = testy;
 			productReference = 959884C6281AA301007F646B /* testy */;
+			productType = "com.apple.product-type.tool";
+		};
+		95C44480283B53EC0052B510 /* classes and objects */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95C44487283B53EC0052B510 /* Build configuration list for PBXNativeTarget "classes and objects" */;
+			buildPhases = (
+				95C4447D283B53EC0052B510 /* Sources */,
+				95C4447E283B53EC0052B510 /* Frameworks */,
+				95C4447F283B53EC0052B510 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "classes and objects";
+			productName = "classes and objects";
+			productReference = 95C44481283B53EC0052B510 /* classes and objects */;
+			productType = "com.apple.product-type.tool";
+		};
+		95C4448B283B5E1F0052B510 /* diffrence between complex numbers using classes and objects */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95C44492283B5E1F0052B510 /* Build configuration list for PBXNativeTarget "diffrence between complex numbers using classes and objects" */;
+			buildPhases = (
+				95C44488283B5E1F0052B510 /* Sources */,
+				95C44489283B5E1F0052B510 /* Frameworks */,
+				95C4448A283B5E1F0052B510 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "diffrence between complex numbers using classes and objects";
+			productName = "diffrence between complex numbers using classes and objects";
+			productReference = 95C4448C283B5E1F0052B510 /* diffrence between complex numbers using classes and objects */;
+			productType = "com.apple.product-type.tool";
+		};
+		95C44496283B5FEA0052B510 /* constructs overloading */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95C4449B283B5FEA0052B510 /* Build configuration list for PBXNativeTarget "constructs overloading" */;
+			buildPhases = (
+				95C44493283B5FEA0052B510 /* Sources */,
+				95C44494283B5FEA0052B510 /* Frameworks */,
+				95C44495283B5FEA0052B510 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "constructs overloading";
+			productName = "constructs overloading";
+			productReference = 95C44497283B5FEA0052B510 /* constructs overloading */;
 			productType = "com.apple.product-type.tool";
 		};
 		95EDA03027FAA3E40010F6AC /* UIET Classwork oops programming */ = {
@@ -459,7 +610,19 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
+					951DEFE72844819300943570 = {
+						CreatedOnToolsVersion = 13.4;
+					};
 					959884C5281AA301007F646B = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					95C44480283B53EC0052B510 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					95C4448B283B5E1F0052B510 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					95C44496283B5FEA0052B510 = {
 						CreatedOnToolsVersion = 13.3.1;
 					};
 					95EDA03027FAA3E40010F6AC = {
@@ -510,16 +673,49 @@
 				95EDA07527FAC1280010F6AC /* prime number printing */,
 				95EDA08027FACC5C0010F6AC /* array entering elements */,
 				959884C5281AA301007F646B /* testy */,
+				95C44480283B53EC0052B510 /* classes and objects */,
+				95C4448B283B5E1F0052B510 /* diffrence between complex numbers using classes and objects */,
+				95C44496283B5FEA0052B510 /* constructs overloading */,
+				951DEFE72844819300943570 /* operator overloading */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		951DEFE42844819300943570 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				951DEFEB2844819300943570 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		959884C2281AA301007F646B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				959884C9281AA301007F646B /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95C4447D283B53EC0052B510 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95C44488283B5E1F0052B510 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95C44493283B5FEA0052B510 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -590,6 +786,24 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		951DEFED2844819300943570 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		951DEFEE2844819300943570 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		959884CA281AA301007F646B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -600,6 +814,60 @@
 			name = Debug;
 		};
 		959884CB281AA301007F646B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		95C44485283B53EC0052B510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		95C44486283B53EC0052B510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		95C44490283B5E1F0052B510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		95C44491283B5E1F0052B510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		95C4449C283B5FEA0052B510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		95C4449D283B5FEA0052B510 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -848,11 +1116,47 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		951DEFEC2844819300943570 /* Build configuration list for PBXNativeTarget "operator overloading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				951DEFED2844819300943570 /* Debug */,
+				951DEFEE2844819300943570 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		959884CC281AA301007F646B /* Build configuration list for PBXNativeTarget "testy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				959884CA281AA301007F646B /* Debug */,
 				959884CB281AA301007F646B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95C44487283B53EC0052B510 /* Build configuration list for PBXNativeTarget "classes and objects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95C44485283B53EC0052B510 /* Debug */,
+				95C44486283B53EC0052B510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95C44492283B5E1F0052B510 /* Build configuration list for PBXNativeTarget "diffrence between complex numbers using classes and objects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95C44490283B5E1F0052B510 /* Debug */,
+				95C44491283B5E1F0052B510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95C4449B283B5FEA0052B510 /* Build configuration list for PBXNativeTarget "constructs overloading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95C4449C283B5FEA0052B510 /* Debug */,
+				95C4449D283B5FEA0052B510 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
